@@ -49,7 +49,6 @@ class Intro : AppCompatActivity() {
 //             .baseUrl("http://ghryu.mmonstar.co.kr/")
             // .baseUrl("http://apptest.dv9163.kro.kr")
             .baseUrl(SERVER_URL)
-//            .baseUrl("http://shoh.mmonstar.co.kr")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
